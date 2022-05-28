@@ -1,0 +1,74 @@
+a {
+color:red;
+font-size: 10px;
+}
+/* Комментарий */
+div {
+/*color: #3921d1; */
+/* color: red */
+color: rgba(255,0,0,0.5)
+/* color: rgb(255,0,0) */
+}
+#my_link {
+color: green;
+}
+#test_link{
+font-size: 20px;
+color: #470D85;
+}
+.human {
+color:#F4CA16;
+}
+.animal {
+
+}
+.lion
+{
+color:#3E5CF4;
+}
+.monkey{color:#D80374;}
+.fish{color:#39DEF4;}
+.message {
+color:#747474;
+background-color: #E4E4E4;
+border: 1px solid #323232;
+font-size: 20px;
+margin:10px;
+padding: 15px;
+}
+.success {
+background-color:#19A15F;
+color:#ffffff;}
+.fail{
+background-color:#D82919;
+color:#ffffff;
+}
+.info{
+background-color:#4B8BF5;
+color:#ffffff;
+}
+.message:hover {border: 10px solid #323232;}
+#test{
+
+
+background-color:#EEECE9;
+color:#BE1512;
+padding: 15px;
+margin: 15px;
+border: 7px solid #D85346;
+border-radius: 50px;
+opacity: 0.9;
+box-shadow: 3px 3px 7px #000000;
+}
+#test:hover{
+transform: rotate(45deg);
+transition: 1s all;
+background-color:lime;
+
+text-align: center;
+opacity:1;}
+body{
+transform: rotate(-15deg) scale(0.5);
+
+background-image: url(https://cdn2.unrealengine.com/ac2-gamename-store-landscape-2560x1440-2560x1440-aa944fa0e8c6.jpg);
+}
